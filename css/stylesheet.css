@@ -1,0 +1,42 @@
+  .navbar-default {
+    background-color: #222;
+    color: #fff;
+  }
+  
+  .navbar-default .navbar-toggle:hover,
+  .navbar-default .navbar-toggle:focus {
+    background-color: #eeeb82;
+  }
+  
+  .navbar-default .navbar-brand {
+    color: #eeeb82;
+  }
+  
+  .navbar-default .navbar-nav > li > a {
+    color: #fff;
+  }
+  
+  .navbar-default .navbar-nav > li > a:hover,
+  .navbar-default .navbar-nav > li > a:focus {
+    color: #eeeb82;
+  }
+  
+  .navbar-default .navbar-nav > .active > a,
+  .navbar-default .navbar-nav > .active > a:hover,
+  .navbar-default .navbar-nav > .active > a:focus {
+    color: #eeeb82;
+  }
+  
+  .item_section {
+    background-color: #222;
+    color: #eeeb82;
+    margin: 15px;
+    width: auto;
+  }
+  
+  @media (max-width: 768px) {
+    .col-xs-12 {
+      margin-left: 10%;
+      margin-right: 10%;
+    }
+  }
